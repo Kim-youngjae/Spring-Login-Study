@@ -14,7 +14,7 @@ class SessionManagerTest {
     @Test
     void sessionTest() {
         // 세션 생성
-        MockHttpServletResponse response = new MockHttpServletResponse(); // 가짜로 http response를 경험할 수 있게s
+        MockHttpServletResponse response = new MockHttpServletResponse(); // 가짜로 http response를 경험할 수 있게
         Member member = new Member();
         sessionManager.createSession(member, response);
 
